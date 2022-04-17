@@ -14,3 +14,34 @@ public class FibonacciSeries {
 	}
 
 }
+***************************************************
+package week1.day1;
+
+public class Factorial {
+	public static void main(String[] args) {
+		int Number = 5, fact=1;
+		for (int i=1;i<=Number;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+}
+*****************************************************
+package week1.day1;
+
+public class PrimeNumber {
+	public static void main(String[] args) {
+		int Number = 60;
+		boolean flag = false;
+		for (int i =2; i<Number/2; i++) {
+			if  ((Number % i) == 0)
+				flag = true;
+		}
+		if (flag)
+			System.out.println("Not a Prime Number");
+		else 
+			System.out.println("Prime Number");
+	}
+}
+
